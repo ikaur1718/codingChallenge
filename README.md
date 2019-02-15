@@ -1,3 +1,7 @@
+# Run command npm run seed-data to seed the database.
+# Run npm start to start the server
+# Run npm run react-dev to create the bundle
+
 # codingChallenge
 
 This challenge tests you on having a fully functional app that is deployed somewhere and/or published code in github, and you are comfortable with routing, authorization, feature modules, architecture, style guide.

@@ -1,0 +1,48 @@
+{
+  "name": "virtual_facility_challenge",
+  "version": "1.0.0",
+  "description": "This challenge tests you on having a fully functional app that is deployed somewhere and/or published code in github, and you are comfortable with routing, authorization, feature modules, architecture, style guide.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-dev": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch",
+    "start": "server/index.js",
+    "seed-data": "psql usersData < ./db/schema.sql"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikaur1718/codingChallenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ikaur1718/codingChallenge/issues"
+  },
+  "homepage": "https://github.com/ikaur1718/codingChallenge#readme",
+  "dependencies": {
+    "firebase": "^5.8.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "4.3.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-fileupload": "^0.4.0",
+    "hard-source-webpack-plugin": "^0.12.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3",
+    "riek": "^1.1.0",
+    "shuffle-array": "^1.0.1",
+    "webpack": "2.2.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
